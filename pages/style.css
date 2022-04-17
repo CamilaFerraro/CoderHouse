@@ -58,6 +58,15 @@ ul li:hover ul{
 .videoyt:hover{
     transform: scale(1.1, 1.1);
 }
+.fotoalfajor:hover{
+    transform: scale(1.1, 1.1);
+}
+.fotomousse:hover{
+    transform: scale(1.1, 1.1);
+}
+.fotovolcan:hover{
+    transform: scale(1.1, 1.1);
+}
 .grid-container{
     display: grid;
     grid-template-columns: 1fr;
