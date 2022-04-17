@@ -43,6 +43,15 @@ ul li:hover ul{
     display:block;
     background-color:hsl(271, 70%, 71%); 
 }
+.fotoalfajor{
+    transform: scale(1.1, 1.1);
+}
+.fotomousse{
+    transform: scale(1.1, 1.1);
+}
+.fotovolcan{
+    transform: scale(1.1, 1.1);
+}
 .logo:hover{
     transform: scale(1.1, 1.1);
 }
