@@ -44,12 +44,18 @@ ul li:hover ul{
     background-color:hsl(271, 70%, 71%); 
 }
 .fotoalfajor:hover{
+    background-color: blueviolet;
+    color: #ffffff;
     transform: scale(1.1, 1.1);
 }
 .fotomousse:hover{
+    background-color: blueviolet;
+    color: #ffffff;
     transform: scale(1.1, 1.1);
 }
 .fotovolcan:hover{
+    background-color: blueviolet;
+    color: #ffffff;
     transform: scale(1.1, 1.1);
 }
 .logo:hover{
