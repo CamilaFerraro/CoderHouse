@@ -43,30 +43,72 @@ ul li:hover ul{
     display:block;
     background-color:hsl(271, 70%, 71%); 
 }
+.fotoalfajor{
+    margin: 20px;
+    transition: all 1s;
+    opacity: .4;
+}
+.fotomousse{
+    margin: 20px;
+    transition: all 1s;
+    opacity: .4;
+}
+.fotovolcan{
+    margin: 20px;
+    transition: all 1s;
+    opacity: .4;
+}
+.fotoalfajor:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.fotomousse:hover{
+    color: #000000;
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.fotovolcan:hover{
+    color: #000000;
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.logo{
+    transition: all 0.2s;
+}
 .logo:hover{
     transform: scale(1.1, 1.1);
-    
+}
+.foto1{
+    margin: 20px;
+    transition: all 1s;
+    filter: grayscale(100%)
 }
 .foto1:hover{
     transform: scale(1.1, 1.1);
+    filter: grayscale(0%);
+}
+.foto2{
+    margin: 20px;
+    transition: all 1s;
+    filter: grayscale(100%);
 }
 .foto2:hover{
     transform: scale(1.1, 1.1);
+    filter: grayscale(0%);
+}
+.foto3{
+    margin: 20px;
+    transition: all 1s;
+    filter: grayscale(100%);
 }
 .foto3:hover{
     transform: scale(1.1, 1.1);
+    filter: grayscale(0%);
 }
 .videoyt:hover{
     transform: scale(1.1, 1.1);
-}
-.fotoalfajor:hover{
-    transform: scale(1.1, 1.1);
-}
-.fotomousse:hover{
-    transform: scale(1.1, 1.1);
-}
-.fotovolcan:hover{
-    transform: scale(1.1, 1.1);
+    transition: all 1s;
 }
 .grid-container{
     display: grid;
